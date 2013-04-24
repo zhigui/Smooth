@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>powerslider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body class="default">
+    <header>
+      <div class="toolbar">
+        <div class="button btn back">返回</div>
+        <h1 class="title" >Smooth</h1>
+         
+        <div class="button-next back disabled">继续</div>
+        <div class="button-next red pull-right">继续</div>
+      </div>
+      <div>
+          <a href="#">菜单1</a>
+          <a href="#">菜单2</a>
+          <a href="#">菜单3</a>
+      </div>
+    </header>
+    <div class="content">
+      <div style="margin-bottom:5px;">
+         <div class="button-list">普通可用</div>
+        <div class="button-list back disabled ">普通disabled</div>
+        <div class="button-next red">红色可用</div>
+        <div class="button-next red  disabled ">红色disabled</div>
+
+        <div class="button-next blue">蓝色可用</div>
+        <div class="button-next blue  disabled ">蓝色disabled</div>
+
+        <div class="button-next green">绿色可用</div>
+        <div class="button-next green  disabled ">绿色disabled</div>
+
+        <div class="button-next yellow">黄色可用</div>
+        <div class="button-next yellow  disabled ">黄色disabled</div>
+
+        <section class="left">
+          <div class="button red col1 ">红色</div>
+          <div class="button  blue col1">蓝色</div>
+          <div class="button  green col1 ">绿色</div>
+          <div class="button  yellow col1 ">黄色</div>
+      </section>
+      
+      </div>
+
+      
+
+
+      <ul class="segmented">
+        <li class="active">
+          <a href="#">Thing one</a>
+        </li>
+        <li>
+          <a href="#">Thing two</a>
+        </li>
+        <li>
+          <a href="#">Thing three</a>
+        </li>
+      </ul>
+      <section class="left">
+          <a class="button yellow" href="#dialog1">弹框1</a>
+         
+      </section>
+      <div style="width:150px;">
+        <div class="dropdown">
+          <span>请选择一个选项</span>
+          <input type="hidden" name="picked" /> 
+          <ul>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+            <li>item3</li>
+            <li>item4</li>
+          </ul>
+
+        </div>
+      </div>
+      <ul class="itemlist">
+        <li>今天的任务<span class="count red">4</span></li>
+        <li>明天的任务<span class="count green">20</span></li>
+        <li>过期的任务<span class="count blue">13</span></li>
+        
+        <li class="list-divider">其他分类</li>
+        <li>我的收藏<span class="count yellow">16</span></li>
+        <li>我喜欢的<span class="count pink">8</span></li>
+        <li>已经删除的任务<span class="count">6</span></li>
+      </ul>
+
+       <ul class="itemlist arrow">
+        <li>今天的任务<span class="count red">4</span></li>
+        <li>明天的任务<span class="count green">20</span></li>
+        <li>过期的任务<span class="count blue">13</span></li>
+        <li>我的收藏<span class="count yellow">16</span></li>
+        <li>我喜欢的<span class="count pink">8</span></li>
+        <li>已经删除的任务<span class="count">6</span></li>
+      </ul>
+
+
+      
+
+
+      <!-- <div class="loading"></div> -->
+      <div class="loading2"></div>
+    </div>
+      <div class="bgmask" ></div>
+      <div class="dialog" id="dialog1"  >
+        <div class="dialog-title"><h3>友情提示</h3></div>
+        <div class="dialog-content">
+          <div id="dialog1" title="登陆提示" style="display: block;">
+            <p>您确定，您要这么做么？</p>
+          </div>
+        </div>
+        <div class="dialog-btns">
+          <a class="btn" href="#" >取消</a>
+          <a class="btn" href="#" >确定</a>
+        </div>
+      </div>
+  </body>
+</html>
